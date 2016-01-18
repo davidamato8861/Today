@@ -1,8 +1,44 @@
 h1 {
-    color: orange;
+    color: blue;
+    text-shadow: 2px 5px 20px;
 }
 
 html {
-    background: linear-gradient(to bottom ,green, blue)fixed;
+    background: linear-gradient(to bottom ,white, blue)fixed;
 }
 
+#sky {
+    padding: 10px;
+    height: 80px;
+    background-color: black;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: rotateX(14deg);
+}
+#box1 {
+    float: left;
+    width: 140px;
+    height: 85px;
+    background-color: orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 2s, height 4s;
+}
+
+#box1:hover{
+  width: 200px;
+   height: 420px;
+}
+#box2:hover{
+    width: 200px;
+    height: 420px;
+}
+    #box2 {
+    padding-right: -5px;
+    width: 148px;
+    height: 85px;
+    margin: -84px;
+    margin-left: 1125px;
+    background-color: orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 3s, height 4s;
+}
