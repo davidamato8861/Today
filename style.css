@@ -2,12 +2,12 @@ h1 {
     color: blue;
     text-shadow: 2px 5px 20px;
 }
-
+/*Creates linear gradient background (white to blue)*/
 html {
     height: 100%;
     background: linear-gradient(to bottom ,white, blue)fixed;
 }
-
+/*The red div for title*/
 #sky {
     padding: 10px;
     height: 80px;
@@ -16,6 +16,7 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: rotateX(14deg);
 }
+/*dsplays box 1*/
 #box1 {
     float: left;
     width: 140px;
@@ -25,12 +26,12 @@ html {
     transition: width 2s, height 4s;
     
 }
-
+/*changes box 1 from it's original position (Transition 23)*/
 #box1:hover{
     width: 200px;
     height: 420px;
 }
-  
+  /*Calender*/
  #pic1 {
      padding: 20px;
      margin-left: 500px;
@@ -38,7 +39,7 @@ html {
      animation-duration: 3s;
      position: fixed;
  }
- 
+ /*Changes the opacity of the calender. Makes the calender appear*/
 @keyframes calendar {
   0%  { opacity: 0.2;}
   35% { opacity: 0.7;}
