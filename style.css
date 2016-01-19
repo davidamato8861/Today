@@ -42,3 +42,14 @@ html {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: width 3s, height 4s;
 }
+ #pic1 {
+     padding: 20px;
+     margin-left: 190px;
+     animation-name: calendar;
+     animation-duration: 4s;
+ }
+ 
+@-webkit-keyframes calendar {
+  0%   { opacity: 0.2;}
+  35% { opacity: 0.9;}
+  100% { opacity: 1;}
