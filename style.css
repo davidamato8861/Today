@@ -42,8 +42,8 @@ html {
      border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 36 25 44 repeat;
  }
  /*Changes the opacity of the calender. Makes the calender appear*/
-@keyframes calendar {
-  0%  { opacity: 0.2;}
-  35% { opacity: 0.7;}
-  100% { opacity: 1;}
+  @keyframes calendar {
+   0%  { opacity: 0.2;}
+   35% { opacity: 0.7;}
+   100% { opacity: 1;}
  }
