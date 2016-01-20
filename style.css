@@ -1,3 +1,4 @@
+/*Controls h1 properties (adds blue color and text shadow)*/
 h1 {
     color: blue;
     text-shadow: 2px 5px 20px;
@@ -8,7 +9,7 @@ html {
     background: linear-gradient(to bottom ,white, blue)fixed;
 }
 /*The red div for title*/
-#sky {
+#header {
     padding: 10px;
     height: 80px;
     background-color: red;
