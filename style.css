@@ -33,11 +33,12 @@ html {
 }
   /*Calender*/
  #pic1 {
-     padding: 20px;
+     border: 40px solid transparent;
      margin-left: 500px;
      animation-name: calendar;
      animation-duration: 3s;
      position: fixed;
+     border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 36 25 44 repeat;
  }
  /*Changes the opacity of the calender. Makes the calender appear*/
 @keyframes calendar {
