@@ -29,8 +29,8 @@ html {
 }
 /*changes box 1 from it's original position (Transition 23)*/
 #box1:hover{
-    width: 200px;
-    height: 420px;
+    width: 300px;
+    height: 450px;
 }
   /*Calender*/
  #pic1 {
